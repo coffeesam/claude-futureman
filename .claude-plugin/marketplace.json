@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "futureman",
+  "owner": {
+    "name": "Sam Hon"
+  },
+  "metadata": {
+    "description": "An output style for Claude Code: bottom line up front, plain language, and explicit decision framing.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "futureman",
+      "source": "./",
+      "description": "Bottom line up front, plain language instead of insider jargon, and every decision stated with its problem and its implications.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Sam Hon"
+      },
+      "keywords": ["output-style", "communication", "bluf", "plain-language", "decisions"],
+      "category": "productivity"
+    }
+  ]
+}
