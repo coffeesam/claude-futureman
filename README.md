@@ -13,7 +13,7 @@ It also asks for the why and the options before the explanation, so you are neve
 ## Install
 
 ```
-/plugin marketplace add <this-repo-url>
+/plugin marketplace add coffeesam/claude-futureman
 /plugin install futureman@futureman
 ```
 
