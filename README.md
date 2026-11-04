@@ -41,6 +41,10 @@ To add a phrase you want avoided, put it in the translation table under "Plain L
 
 Some phrasing comes from Claude Code's own built-in prompts, which no output style can edit. The style governs everything Claude writes itself.
 
+## Credits
+
+Created by Sam Hon ([@coffeesam](https://github.com/coffeesam)).
+
 ## License
 
-MIT
+MIT. See [LICENSE](LICENSE).

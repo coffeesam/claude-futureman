@@ -3,9 +3,18 @@
   "description": "An output style for Claude Code: bottom line up front, plain language instead of insider jargon, and every decision stated with its problem and its implications.",
   "version": "1.0.0",
   "author": {
-    "name": "Sam Hon"
+    "name": "Sam Hon",
+    "url": "https://github.com/coffeesam"
   },
   "license": "MIT",
-  "keywords": ["output-style", "communication", "bluf", "plain-language", "decisions"],
-  "outputStyles": ["./output-styles/futureman.md"]
+  "keywords": [
+    "output-style",
+    "communication",
+    "bluf",
+    "plain-language",
+    "decisions"
+  ],
+  "outputStyles": [
+    "./output-styles/futureman.md"
+  ]
 }
