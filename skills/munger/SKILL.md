@@ -1,6 +1,6 @@
 ---
 name: munger
-description: Tests a significant decision against Charlie Munger's principles (inversion, avoiding stupidity, circle of competence, incentives, second-order effects, opportunity cost) and returns a definite yes or no. Use when the user is weighing whether to commit to something with real stakes, such as a job offer, a business deal, a big client, a hire, a partnership, a new product or a market entry, and asks "should I/we...?". Not for small or technical choices such as tabs versus spaces or which library to use, and not for checking whether a claim is true.
+description: Tests a significant decision against Charlie Munger's principles (inversion, avoiding stupidity, circle of competence, incentives, second-order effects, opportunity cost) and returns a definite yes or no. Use when the user is weighing whether to commit to something with real stakes, such as a job offer, a business deal, a big client, a hire, a partnership, a new product or a market entry, and asks "should I/we...?". Not for small or technical choices such as tabs versus spaces or which library to use, not for checking whether a claim is true, and not for preparing a pitch or proposal to a client (that is spinova).
 license: MIT
 metadata:
   author: Sam Hon
