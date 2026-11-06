@@ -1,7 +1,7 @@
 {
   "name": "futureman",
   "description": "An output style for Claude Code: bottom line up front, plain language instead of insider jargon, and every decision stated with its problem and its implications.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "Sam Hon",
     "url": "https://github.com/coffeesam"

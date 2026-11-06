@@ -21,15 +21,19 @@ Then pick it in **Settings → Claude Code → Output style**, or set it directl
 
 ```json
 {
-  "outputStyle": "futureman"
+  "outputStyle": "futureman:futureman"
 }
 ```
 
+The name has two parts because Claude Code prefixes a plugin's styles with the plugin name. `"outputStyle": "futureman"` on its own does not select the plugin's style, and you get the default style with no warning.
+
 A project can override the style in its own `.claude/settings.json`.
+
+futureman keeps Claude Code's built-in software engineering instructions. It changes how Claude communicates, not how it codes.
 
 ## If you already have a personal copy
 
-Delete `~/.claude/output-styles/futureman.md` after installing the plugin. Two styles with the same name is ambiguous, and which one wins is not something you want to debug.
+If you used a hand-copied `~/.claude/output-styles/futureman.md` before, switch `outputStyle` to `futureman:futureman` and delete the personal copy. Otherwise you keep running the old copy, and plugin updates never reach you.
 
 ## Editing it
 
