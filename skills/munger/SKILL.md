@@ -25,18 +25,18 @@ Test the decision against the principles below and end with a definite yes or no
 ## Method
 
 1. State the decision in one sentence.
-2. Go through the principles. Write about only the ones that change the answer, usually three to five. Skip the rest without comment.
+2. Go through the principles. Write about only the ones that change the answer: at most four. Skip the rest without comment.
 3. Give the verdict.
 
 ## Output
 
 Start with the verdict: **Yes** or **No**, and the single strongest reason, in one sentence.
 
-Then one short paragraph or two to four lines per principle used, each starting with the principle's name in bold.
+Then one or two sentences per principle used, each starting with the principle's name in bold.
 
 End with **What would change my answer**: the one or two facts that would flip the verdict.
 
-Keep the whole analysis under about 15 lines. This skill runs straight away; it does not need to offer first.
+Keep the whole reply under about 250 words, with no `#` headers and no sections beyond the ones above. This skill runs straight away; it does not need to offer first.
 
 If the decision has a large blast radius, reaching a whole market, an ecosystem of partners, or regulators, add one last line offering an Nth-order analysis that traces the knock-on effects up to five levels (the `nth-order` skill).
 

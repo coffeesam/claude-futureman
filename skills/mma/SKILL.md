@@ -50,11 +50,11 @@ Open with the definitions line above.
 
 Then one sentence that answers the question: which measure is weakest, and what to do about it.
 
-Then **Awareness**, **Marketshare** and **Mindshare**, two to four lines each, with the evidence. For Mindshare, name the rung.
+Then **Awareness**, **Marketshare** and **Mindshare**, one or two sentences each, with the evidence. For Mindshare, name the rung.
 
 End with **Next move**: one concrete action, and the number that would show it is working.
 
-Keep it under about 15 lines. This skill runs straight away; it does not need to offer first.
+Keep the whole reply under about 250 words, with no `#` headers and no sections beyond the ones above. This skill runs straight away; it does not need to offer first.
 
 ## Credit
 

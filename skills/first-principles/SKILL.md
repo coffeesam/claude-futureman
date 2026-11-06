@@ -40,7 +40,7 @@ Then give the breakdown, grouped by category, in this order: universal truths, t
 
 End with **What this means**: one to three sentences on what the user should do or decide now.
 
-Keep it short. A simple claim needs a few lines, not every category.
+Keep the whole reply under about 250 words. At most two parts per category, one or two sentences each. No sections beyond the ones above. Use bold labels for the categories, not `#` headers. A simple claim needs a few lines, not every category.
 
 ## Rules
 
