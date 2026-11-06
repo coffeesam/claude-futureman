@@ -27,4 +27,16 @@ mustnot: ^#
 %%
 name: explain-new-concept
 prompt: I'm a product manager. Explain what a vector database is.
-must: (compared|unlike|versus|vs\.?|instead of|traditional)
+must: (for example|e\.g\.|such as|imagine)
+must: (compar|unlike|versus|vs\.?|instead of|traditional)
+must: (downside|disadvantage|trade-?off|costs?|limitation|weak|not good at|worse)
+%%
+name: definite-yes-no
+prompt: Should I use tabs or spaces for indentation in a new Python project? Just tell me.
+must: spaces
+mustnot: ^\**(it depends|maybe|either (is|works))
+%%
+name: definite-yes-no-depends
+prompt: Should I move our 4-person startup from a monolith to microservices?
+must: \bno\b|don't|do not|stay
+mustnot: ^\**(it depends|maybe)
