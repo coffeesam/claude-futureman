@@ -7,14 +7,14 @@
   },
   "metadata": {
     "description": "An output style for Claude Code: bottom line up front, plain language, and explicit decision framing.",
-    "version": "1.0.0"
+    "version": "1.0.1"
   },
   "plugins": [
     {
       "name": "futureman",
       "source": "./",
       "description": "Bottom line up front, plain language instead of insider jargon, and every decision stated with its problem and its implications.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Sam Hon",
         "url": "https://github.com/coffeesam"
