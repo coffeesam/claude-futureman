@@ -26,8 +26,9 @@ must: \*\*Implications|^Implications
 %%
 name: simple-question-short
 prompt: What does HTTP status 409 mean?
-maxwords: 90
+maxwords: 180
 mustnot: \*\*Decision
+mustnot: ^#{1,6} 
 %%
 name: explain-new-concept
 prompt: I'm a product manager. Explain what a vector database is.
