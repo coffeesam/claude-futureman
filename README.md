@@ -49,6 +49,8 @@ Some phrasing comes from Claude Code's own built-in prompts, which no output sty
 
 Created by Sam Hon ([@coffeesam](https://github.com/coffeesam)).
 
+The name is a nod to [caveman](https://github.com/juliusbrussee/caveman), the Claude Code plugin that makes Claude talk like a caveman. Where caveman strips language down, futureman thinks forward: it puts a plain, simple answer first, and reaches for mental models and decision-making frameworks when a question deserves more than an answer.
+
 ## License
 
 MIT. See [LICENSE](LICENSE).
