@@ -38,6 +38,8 @@ End with **What would change my answer**: the one or two facts that would flip t
 
 Keep the whole analysis under about 15 lines. This skill runs straight away; it does not need to offer first.
 
+If the decision has a large blast radius, reaching a whole market, an ecosystem of partners, or regulators, add one last line offering an Nth-order analysis that traces the knock-on effects up to five levels (the `nth-order` skill).
+
 ## Rules
 
 - Never end on "it depends" or "maybe". If the user has not given enough to decide, say what you need, and give the answer you would give on the most likely assumption.
