@@ -11,7 +11,7 @@ cd "$ROOT"
 status=0
 
 echo "== validate";    claude plugin validate .                                  || status=1
-echo "== skill evals"; claude plugin eval . --no-publish --max-cost-usd 10 "$@" || status=1
+echo "== skill evals"; claude plugin eval . --no-publish --max-cost-usd 20 "$@" || status=1
 echo "== style";       "$ROOT/scripts/style-check.sh" 3                          || status=1
 
 exit $status
