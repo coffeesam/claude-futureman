@@ -6,15 +6,15 @@
     "url": "https://github.com/coffeesam"
   },
   "metadata": {
-    "description": "An output style for Claude Code: bottom line up front, plain language, and explicit decision framing.",
-    "version": "1.0.1"
+    "description": "futureman for Claude Code: plain answers first, with mental models and decision-making frameworks.",
+    "version": "2.0.0"
   },
   "plugins": [
     {
       "name": "futureman",
       "source": "./",
-      "description": "Bottom line up front, plain language instead of insider jargon, and every decision stated with its problem and its implications.",
-      "version": "1.0.1",
+      "description": "An output style plus six decision-making skills for Claude Code: a plain, simple answer first, and frameworks such as first principles, Munger's principles, Nth-order thinking, SPINOVA, MMA and SFPG when a question needs more.",
+      "version": "2.0.0",
       "author": {
         "name": "Sam Hon",
         "url": "https://github.com/coffeesam"
@@ -24,7 +24,11 @@
         "communication",
         "bluf",
         "plain-language",
-        "decisions"
+        "decisions",
+        "mental-models",
+        "first-principles",
+        "decision-making",
+        "strategy"
       ],
       "category": "productivity"
     }
