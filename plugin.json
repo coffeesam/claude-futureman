@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "futureman",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Caveman talks less. futureman thinks ahead. Six proven decision frameworks for Codex, from first principles to Munger's checklist, each ending in a clear answer.",
   "author": {
     "name": "Sam Hon",
@@ -34,7 +34,7 @@
           "Use munger: should I take this job offer?",
           "Use first-principles: do we really have to host in the EU because of GDPR?"
         ],
-        "brandColor": "#16213A",
+        "brandColor": "#2764FC",
         "composerIcon": "./assets/icon.png",
         "logo": "./assets/icon.png"
       }

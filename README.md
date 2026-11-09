@@ -106,6 +106,8 @@ To add a phrase you want avoided, put it in the translation table under "Plain L
 
 The version number appears in four places: `.claude-plugin/plugin.json`, twice in `.claude-plugin/marketplace.json`, and in the root `plugin.json` that Codex reads. Change all four together.
 
+The icon's source is `assets/icon.svg`. After changing it, export a 1024 px PNG to both `assets/icon.png` and `.claude-plugin/icon.png`.
+
 Each skill is one folder under `skills/`. Its `description` decides when Claude picks it, so test any change to it.
 
 To run every check, use `scripts/evals.sh`. It validates the plugin, runs the skill tests in `evals/` (each test runs with and without the plugin), and checks the style with the cases in `tests/style/cases.txt`. Every run is a real model call on your account. A full run costs about $15 at list price.

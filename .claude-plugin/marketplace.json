@@ -7,14 +7,14 @@
   },
   "metadata": {
     "description": "futureman: Caveman talks less. futureman thinks ahead.",
-    "version": "2.1.1"
+    "version": "2.1.2"
   },
   "plugins": [
     {
       "name": "futureman",
       "source": "./",
       "description": "Caveman talks less. futureman thinks ahead. Claude gives you the answer in the first sentence, in plain words, then brings in proven decision frameworks, from first principles to Munger's checklist, when the stakes are high.",
-      "version": "2.1.1",
+      "version": "2.1.2",
       "author": {
         "name": "Sam Hon",
         "url": "https://github.com/coffeesam"
