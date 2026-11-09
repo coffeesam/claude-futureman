@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "futureman",
-  "version": "2.1.0",
-  "description": "Six decision-making skills: a plain, simple answer first, and frameworks such as first principles, Munger's principles, Nth-order thinking, SPINOVA, MMA and SFPG when a question needs more.",
+  "version": "2.1.1",
+  "description": "Caveman talks less. futureman thinks ahead. Six proven decision frameworks for Codex, from first principles to Munger's checklist, each ending in a clear answer.",
   "author": {
     "name": "Sam Hon",
     "url": "https://github.com/coffeesam"
@@ -25,7 +25,7 @@
     "com.openai": {
       "interface": {
         "displayName": "futureman",
-        "shortDescription": "Plain answers first, with decision-making frameworks",
+        "shortDescription": "Talks less. Thinks ahead.",
         "longDescription": "Six skills for questions that need more than an answer: first-principles checks a claim, munger tests a decision and answers yes or no, mma measures a brand, nth-order traces knock-on effects, spinova assesses a client opportunity, and sfpg diagnoses an organisation's problem.",
         "developerName": "Sam Hon",
         "category": "Productivity",

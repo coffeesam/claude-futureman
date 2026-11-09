@@ -1,8 +1,10 @@
 # futureman
 
-A Claude Code plugin that puts a plain, simple answer first, and brings in a mental model or decision-making framework when a question needs more than an answer.
+**Caveman talks less. futureman thinks ahead.**
 
-It has two parts:
+[caveman](https://github.com/juliusbrussee/caveman) made Claude cut the words. futureman cuts them and then thinks ahead: the answer comes first, in plain words, and when a question deserves more than an answer, Claude reaches for a proven framework. It tests a claim from first principles, checks a big decision against Munger's principles, or traces the knock-on effects five moves out.
+
+futureman is a Claude Code plugin with two parts:
 
 - **An output style** that is always on. It changes how Claude writes to you, not what it does.
 - **Six framework skills** that Claude uses when your question fits one, or when you ask for one by name.

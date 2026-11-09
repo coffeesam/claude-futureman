@@ -1,5 +1,11 @@
 # Changelog
 
+## 2.1.1 (2026-11-09)
+
+### Changed
+
+- New descriptions that lead with the hook: "Caveman talks less. futureman thinks ahead." The Codex description now describes the skills only, since Codex doesn't get the output style.
+
 ## 2.1.0 (2026-11-09)
 
 ### Added

@@ -6,15 +6,15 @@
     "url": "https://github.com/coffeesam"
   },
   "metadata": {
-    "description": "futureman for Claude Code: plain answers first, with mental models and decision-making frameworks.",
-    "version": "2.1.0"
+    "description": "futureman: Caveman talks less. futureman thinks ahead.",
+    "version": "2.1.1"
   },
   "plugins": [
     {
       "name": "futureman",
       "source": "./",
-      "description": "An output style plus six decision-making skills for Claude Code: a plain, simple answer first, and frameworks such as first principles, Munger's principles, Nth-order thinking, SPINOVA, MMA and SFPG when a question needs more.",
-      "version": "2.1.0",
+      "description": "Caveman talks less. futureman thinks ahead. Claude gives you the answer in the first sentence, in plain words, then brings in proven decision frameworks, from first principles to Munger's checklist, when the stakes are high.",
+      "version": "2.1.1",
       "author": {
         "name": "Sam Hon",
         "url": "https://github.com/coffeesam"
