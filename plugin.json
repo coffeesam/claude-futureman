@@ -1,0 +1,43 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "futureman",
+  "version": "2.0.0",
+  "description": "Six decision-making skills: a plain, simple answer first, and frameworks such as first principles, Munger's principles, Nth-order thinking, SPINOVA, MMA and SFPG when a question needs more.",
+  "author": {
+    "name": "Sam Hon",
+    "url": "https://github.com/coffeesam"
+  },
+  "homepage": "https://github.com/coffeesam/claude-futureman",
+  "repository": "https://github.com/coffeesam/claude-futureman",
+  "license": "MIT",
+  "keywords": [
+    "output-style",
+    "communication",
+    "bluf",
+    "plain-language",
+    "decisions",
+    "mental-models",
+    "first-principles",
+    "decision-making",
+    "strategy"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "futureman",
+        "shortDescription": "Plain answers first, with decision-making frameworks",
+        "longDescription": "Six skills for questions that need more than an answer: first-principles checks a claim, munger tests a decision and answers yes or no, mma measures a brand, nth-order traces knock-on effects, spinova assesses a client opportunity, and sfpg diagnoses an organisation's problem.",
+        "developerName": "Sam Hon",
+        "category": "Productivity",
+        "websiteURL": "https://github.com/coffeesam/claude-futureman",
+        "defaultPrompt": [
+          "Use munger: should I take this job offer?",
+          "Use first-principles: do we really have to host in the EU because of GDPR?"
+        ],
+        "brandColor": "#16213A",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}

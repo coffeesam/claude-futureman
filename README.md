@@ -79,6 +79,19 @@ Assesses a chance to serve a client, partner or employer in seven steps: Situati
 
 Diagnoses an organisation's problem as one of four kinds: **Structural** (who owns what), **Functional** (what can be done, and how), **Procedural** (how work moves: empower, delegate, follow up) or **Governance** (what must be checked, approved or escalated). Ask "handoffs between sales and delivery keep getting dropped", and it may find that the real gap is that nobody owns the handoff point, so reorganising the teams won't fix it. It also designs operating models for AI agents, mapping each layer to `Agent.md`, `Skill.md`, `Workflow.md` and `Guardrails.md`. It's for organisations, not for software architecture or personal productivity.
 
+## Use with Codex and ChatGPT
+
+The six skills also work in Codex and in the ChatGPT desktop app. Both read this repo's plugin catalog.
+
+```
+codex plugin marketplace add coffeesam/claude-futureman
+codex plugin add futureman@futureman
+```
+
+In the ChatGPT desktop app, you can also add the marketplace and install futureman from the Plugins Directory.
+
+The output style doesn't carry over, because Codex plugins have no output styles. To get the same writing rules in Codex, copy everything below the frontmatter in [`output-styles/futureman.md`](output-styles/futureman.md) into `~/.codex/AGENTS.md`.
+
 ## If you already have a personal copy
 
 If you used a hand-copied `~/.claude/output-styles/futureman.md` before, switch `outputStyle` to `futureman:futureman` and delete the personal copy. Otherwise you keep running the old copy, and plugin updates never reach you.
@@ -88,6 +101,8 @@ If you used a hand-copied `~/.claude/output-styles/futureman.md` before, switch 
 The style is one file: `output-styles/futureman.md`. The `name` field in its frontmatter must match the filename stem. Claude Code can find a custom style by either one, so a mismatch is hard to spot.
 
 To add a phrase you want avoided, put it in the translation table under "Plain Language" with the wording you prefer instead.
+
+The version number appears in four places: `.claude-plugin/plugin.json`, twice in `.claude-plugin/marketplace.json`, and in the root `plugin.json` that Codex reads. Change all four together.
 
 Each skill is one folder under `skills/`. Its `description` decides when Claude picks it, so test any change to it.
 

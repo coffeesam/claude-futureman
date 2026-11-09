@@ -1,5 +1,11 @@
 # Changelog
 
+## Unreleased
+
+### Added
+
+- Codex and ChatGPT desktop support for the six skills: a portable `plugin.json` at the repo root, with the icon in `assets/`. The output style stays Claude Code only.
+
 ## 2.0.0 (2026-11-09)
 
 futureman is now an output style plus six framework skills.
