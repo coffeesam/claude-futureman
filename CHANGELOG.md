@@ -6,6 +6,10 @@
 
 - Codex and ChatGPT desktop support for the six skills: a portable `plugin.json` at the repo root, with the icon in `assets/`. The output style stays Claude Code only.
 
+### Fixed
+
+- `sfpg` now ships its three reference files (diagnostic questions, the procedural formula and the governance tiers). A `.gitignore` rule meant for a private top-level folder had kept them out of 2.0.0.
+
 ## 2.0.0 (2026-11-09)
 
 futureman is now an output style plus six framework skills.
