@@ -118,7 +118,9 @@ To run every check, use `scripts/evals.sh`. It validates the plugin, runs the sk
 
 ## Releasing
 
-Claude Code and Codex install from `main`, so `main` only ever holds released code. Work on a feature branch and merge it into `main` only as a release:
+Claude Code and Codex install from `main`, so `main` only ever holds released code. Work on a feature branch and merge it into `main` only as a release. The one exception is a change to `README.md` alone, which can go straight to `main`, because it doesn't change how the plugin behaves.
+
+To release:
 
 1. Bump the version in all four places and date the changelog entry.
 2. Merge into `main` and create a signed tag, `vX.Y.Z`.
