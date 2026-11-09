@@ -15,10 +15,23 @@ futureman is a Claude Code plugin with two parts:
 
 ## Install
 
+Inside Claude Code:
+
 ```
 /plugin marketplace add coffeesam/claude-futureman
 /plugin install futureman@futureman
 ```
+
+Or from a terminal:
+
+```
+claude plugin marketplace add coffeesam/claude-futureman
+claude plugin install futureman@futureman
+```
+
+To install it for a whole project, add `--scope project` to both terminal commands. That records futureman in the project's `.claude/settings.json`, so everyone who clones the repo is offered it. Put the `outputStyle` line below in that same file to turn the style on for them too.
+
+To update later, run `claude plugin update futureman@futureman`.
 
 The skills work as soon as the plugin is installed. To turn the output style on, pick it in **Settings → Claude Code → Output style**, or set it in `~/.claude/settings.json`:
 
