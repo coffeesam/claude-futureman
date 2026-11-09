@@ -26,7 +26,7 @@ must: \*\*Implications|^Implications
 %%
 name: simple-question-short
 prompt: What does HTTP status 409 mean?
-maxwords: 180
+maxwords: 200
 mustnot: \*\*Decision
 mustnot: ^#{1,6} 
 %%

@@ -1,6 +1,6 @@
 # Changelog
 
-## 2.0.0 (unreleased)
+## 2.0.0 (2026-11-09)
 
 futureman is now an output style plus six framework skills.
 
