@@ -1,6 +1,10 @@
-# futureman
+<p align="center">
+  <img src="assets/icon.png" width="128" height="128" alt="futureman logo: an italic f to the power of m">
+</p>
 
-**Caveman talks less. futureman thinks ahead.**
+<h1 align="center">futureman</h1>
+
+<p align="center"><strong>Caveman talks less. futureman thinks ahead.</strong></p>
 
 [caveman](https://github.com/juliusbrussee/caveman) made Claude cut the words. futureman cuts them and then thinks ahead: the answer comes first, in plain words, and when a question deserves more than an answer, Claude reaches for a proven framework. It tests a claim from first principles, checks a big decision against Munger's principles, or traces the knock-on effects five moves out.
 
