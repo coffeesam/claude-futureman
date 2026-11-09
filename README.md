@@ -108,6 +108,19 @@ Each skill is one folder under `skills/`. Its `description` decides when Claude 
 
 To run every check, use `scripts/evals.sh`. It validates the plugin, runs the skill tests in `evals/` (each test runs with and without the plugin), and checks the style with the cases in `tests/style/cases.txt`. Every run is a real model call on your account. A full run costs about $15 at list price.
 
+## Releasing
+
+Claude Code and Codex install from `main`, so `main` only ever holds released code. Work on a feature branch and merge it into `main` only as a release:
+
+1. Bump the version in all four places and date the changelog entry.
+2. Merge into `main` and create a signed tag, `vX.Y.Z`.
+3. Build the packages from the tag. `git archive` leaves out `evals/`, `tests/` and `scripts/` (see `.gitattributes`):
+   ```
+   git archive --format=zip -o futureman-X.Y.Z.zip vX.Y.Z
+   cp futureman-X.Y.Z.zip futureman-X.Y.Z.plugin
+   ```
+4. Publish a GitHub release for the tag with both files attached. The `.plugin` file installs in the Claude desktop app, and the `.zip` file is what OpenAI's plugin directory accepts.
+
 ## Limits
 
 Some phrasing comes from Claude Code's own built-in prompts, which no output style can edit. The style governs everything Claude writes itself.

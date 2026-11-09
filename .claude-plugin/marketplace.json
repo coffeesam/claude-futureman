@@ -7,14 +7,14 @@
   },
   "metadata": {
     "description": "futureman for Claude Code: plain answers first, with mental models and decision-making frameworks.",
-    "version": "2.0.0"
+    "version": "2.1.0"
   },
   "plugins": [
     {
       "name": "futureman",
       "source": "./",
       "description": "An output style plus six decision-making skills for Claude Code: a plain, simple answer first, and frameworks such as first principles, Munger's principles, Nth-order thinking, SPINOVA, MMA and SFPG when a question needs more.",
-      "version": "2.0.0",
+      "version": "2.1.0",
       "author": {
         "name": "Sam Hon",
         "url": "https://github.com/coffeesam"

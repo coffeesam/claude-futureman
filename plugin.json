@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "futureman",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Six decision-making skills: a plain, simple answer first, and frameworks such as first principles, Munger's principles, Nth-order thinking, SPINOVA, MMA and SFPG when a question needs more.",
   "author": {
     "name": "Sam Hon",

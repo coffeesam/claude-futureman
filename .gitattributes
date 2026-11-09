@@ -1,0 +1,7 @@
+# Left out of release archives (git archive, GitHub source zips, the .zip and .plugin files).
+# They stay in the repo for contributors.
+evals/ export-ignore
+tests/ export-ignore
+scripts/ export-ignore
+.gitignore export-ignore
+.gitattributes export-ignore
