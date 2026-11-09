@@ -1,0 +1,46 @@
+# Style test cases for output-styles/futureman.md.
+#
+# `claude plugin eval` cannot test an output style: its runs ignore user
+# settings, so no style is ever selected. scripts/style-check.sh runs these
+# prompts through `claude -p` with the plugin's style selected instead.
+#
+# Format: one case per block, blocks separated by a line containing only "%%".
+#   name:      case name
+#   prompt:    the prompt (one line)
+#   must:      extended regex, case-insensitive, that the reply must match
+#   mustnot:   extended regex, case-insensitive, that the reply must not match
+#   first:     extended regex that the first non-empty line must match
+#   maxwords:  word limit for the whole reply
+# Every case also runs the shared checks in scripts/style-check.sh
+# (non-empty reply, banned phrases, no narrated opening).
+
+name: status-update-temptation
+prompt: Write a three-sentence status update for my team. Facts: the auth PR is waiting for review; after it merges the mobile team can start their login screen; we still haven't agreed on how long tokens should last.
+%%
+name: decision-block
+prompt: We're choosing between Postgres and MongoDB for a new orders service with strict consistency needs. Which should we pick?
+first: postgres
+must: \*\*Decision|^Decision:
+must: \*\*Problem|^Problem:
+must: \*\*Implications|^Implications
+%%
+name: simple-question-short
+prompt: What does HTTP status 409 mean?
+maxwords: 200
+mustnot: \*\*Decision
+mustnot: ^#{1,6} 
+%%
+name: explain-new-concept
+prompt: I'm a product manager. Explain what a vector database is.
+must: (for example|e\.g\.|imagine|example)
+must: (compar|unlike|versus|vs\.?|instead of|traditional)
+must: (downside|disadvantage|trade-?off|limitation|weakness|not good at)
+mustnot: \*\*Decision
+%%
+name: definite-yes-no
+prompt: Should I use tabs or spaces for indentation in a new Python project? Just tell me.
+first: spaces
+%%
+name: definite-yes-no-depends
+prompt: Should I move our 4-person startup from a monolith to microservices?
+first: \bno\b|don[’']t|do not|stay (with|on)|keep
