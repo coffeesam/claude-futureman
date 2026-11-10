@@ -108,13 +108,19 @@ Diagnoses an organisation's problem as one of four kinds: **Structural** (who ow
 
 The six skills also work in Codex and in the ChatGPT desktop app. Both read this repo's plugin catalog.
 
+First add the marketplace, from a terminal:
+
 ```bash
 codex plugin marketplace add coffeesam/claude-futureman
 ```
 
+Then install futureman inside Codex. Start `codex`, type `/plugins`, select futureman and choose **Install plugin**. Or install it from the terminal:
+
 ```bash
 codex plugin add futureman@futureman
 ```
+
+Start a new Codex session afterwards. The skills load only in sessions started after the install.
 
 In the ChatGPT desktop app, you can also add the marketplace and install futureman from the Plugins Directory.
 
