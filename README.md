@@ -19,13 +19,19 @@ Inside Claude Code:
 
 ```
 /plugin marketplace add coffeesam/claude-futureman
+```
+
+```
 /plugin install futureman@futureman
 ```
 
 Or from a terminal:
 
-```
+```bash
 claude plugin marketplace add coffeesam/claude-futureman
+```
+
+```bash
 claude plugin install futureman@futureman
 ```
 
@@ -102,8 +108,11 @@ Diagnoses an organisation's problem as one of four kinds: **Structural** (who ow
 
 The six skills also work in Codex and in the ChatGPT desktop app. Both read this repo's plugin catalog.
 
-```
+```bash
 codex plugin marketplace add coffeesam/claude-futureman
+```
+
+```bash
 codex plugin add futureman@futureman
 ```
 
